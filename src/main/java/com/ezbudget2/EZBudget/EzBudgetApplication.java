@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EzBudgetApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(EzBudgetApplication.class, args);
 	}
 }
