@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
-import { Provider } from 'react-redux';
+import { Provider } from "react-redux";
 
-import Transactions from './components/Transactions';
+import Transactions from "./components/transaction/TransactionTable";
 
-import store from './store';
+import store from "./store";
 
 class App extends Component {
   render() {

@@ -624,3 +624,10 @@ export const fetchTransactions = () => dispatch => {
         payload: transactions
     });
 }
+
+export const addTransaction = transactionData => dispatch => {
+    dispatch({
+        type: ADD_TRANSACTION,
+        payload: transactionData
+    });
+}
